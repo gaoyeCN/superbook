@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+	<Button 
+	    android:id="@+id/dialog_delete"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/delete"/>
+	
+	<Button 
+	    android:id="@+id/dialog_chose"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/chose"/>
+	
+	<Button 
+	    android:id="@+id/dialog_edite"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/edite"/>
+	
+	<Button 
+	    android:id="@+id/dialog_solve"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/solve"/>
+</LinearLayout>

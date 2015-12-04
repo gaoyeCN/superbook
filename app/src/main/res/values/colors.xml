@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="textcolor">#252b37</color>
+    <color name="lvitembg">#2ec075</color>
+    <color name="chosed">#e74b3d</color>
+    <color name="nochosed">#00b386</color>
+    <color name="red">#e74b3d</color>
+    <color name="blue">#03b83e</color>
+    <color name="positive">#30fe14</color>
+    <color name="negative">#ffe400</color>
+    <color name="neutral">#d6d6d6</color>
+    <color name="gray">#ebebeb</color>
+    <color name="title_bg">#00b486</color>
+    <color name="text_gray">#b5aea9</color>
+</resources>

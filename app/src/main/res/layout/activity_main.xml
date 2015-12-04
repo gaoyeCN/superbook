@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    
+    <include 
+        layout="@layout/layout_title"/>
+
+	<!--<FrameLayout
+	    android:id="@+id/v_main"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/tab_buttom_main"
+	    android:layout_below="@+id/title_main"/>-->
+	<android.support.v4.view.ViewPager
+		android:id="@+id/vp_main"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/tab_buttom_main"
+		android:layout_below="@+id/title_main"/>
+	
+	<include 
+	    layout="@layout/table_buttom"/>
+</RelativeLayout>

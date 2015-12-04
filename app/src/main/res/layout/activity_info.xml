@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context="com.fy.administrator.superbook.activity.InfoActivity"
+    >
+
+    <include
+        layout="@layout/layout_title"/>
+
+            <TextView
+                android:textColor="@color/text_gray"
+                android:layout_below="@+id/title_main"
+                android:layout_marginTop="16dp"
+                android:id="@+id/tv_info_date"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="16dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:gravity="center_vertical"/>
+
+
+            <EditText
+                android:gravity="left|top"
+                android:layout_below="@+id/tv_info_date"
+                android:id="@+id/et_info_info"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/et_info_info"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/location"/>
+
+        <TextView
+            android:textColor="@color/text_gray"
+            android:id="@+id/tv_location"
+            android:layout_marginLeft="20dp"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>

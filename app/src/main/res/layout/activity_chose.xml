@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:background="@color/white">
+    
+    <include 
+        layout="@layout/layout_title"/>
+
+	<Button 
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_margin="16dp"
+	    android:textSize="16sp"
+	    android:textColor="@color/white"
+	    android:background="@color/red"
+	    android:id="@+id/bt_chose_submit"/>
+	
+	<ListView 
+	    android:id="@+id/lv_chose"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/title_main"
+	    android:divider="@null"
+	    android:layout_above="@+id/bt_chose_submit"
+	    />
+</RelativeLayout>

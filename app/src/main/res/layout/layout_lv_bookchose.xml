@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/white">
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="@dimen/lvItemPadding"
+        android:background="@drawable/null_black_white">
+        <TextView
+            android:id="@+id/iv_lv_icon"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/ll"
+            android:layout_alignBottom="@+id/ll"
+            android:textColor="@color/white"
+            android:background="@color/nochosed"
+            android:visibility="gone"/>
+
+    <LinearLayout 
+        android:id="@+id/ll"
+        android:layout_toRightOf="@+id/iv_lv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <TextView 
+            android:layout_margin="5dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+            android:layout_weight="1"
+	    android:textColor="@color/textcolor"
+	    android:id="@+id/tv_lv_date"/>
+	
+	<TextView
+        android:layout_weight="1"
+	    android:layout_margin="5dp"
+	     android:textColor="@color/textcolor"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+        android:singleLine="true"
+	    android:id="@+id/tv_lv_info"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:textColor="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_lv_money"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:textColor="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_lv_isSolve"/>
+    </LinearLayout>
+    </RelativeLayout>
+    
+     
+   
+    
+	
+	
+	<!-- <android.support.v7.widget.CardView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"/>  -->
+</RelativeLayout>
